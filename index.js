@@ -10,10 +10,7 @@ router.get('/', (ctx) => {
 });
 
 usersRouter.get('/', (ctx) => {
-    ctx.body = [
-        {name: 'leilei'},
-        {name: 'kiki'},
-    ];
+    ctx.set('Allow', 'GET, POST');
 });
 
 usersRouter.post('/', (ctx) => {
