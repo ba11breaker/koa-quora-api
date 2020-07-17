@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app"
+    "dev": "nodemon app",
+    "start": "cross-env NODE_ENV=production node app"
   },
   "author": "ba11breaker",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
+    "koa-json-error": "^3.1.2",
     "koa-router": "^9.1.0",
     "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
   }
 }
