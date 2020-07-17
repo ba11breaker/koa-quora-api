@@ -3,6 +3,7 @@ const db = [{
 }];
 class UsersController {
     find(ctx) {
+        test();
         ctx.body = db;
     }
 
