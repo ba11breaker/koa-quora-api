@@ -15,6 +15,7 @@
     "koa-json-error": "^3.1.2",
     "koa-parameter": "^3.0.1",
     "koa-router": "^9.1.0",
+    "mongoose": "^5.9.25",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
